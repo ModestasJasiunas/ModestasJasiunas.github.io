@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>CV piktograma</title>
+  <rect width="64" height="64" rx="14" fill="#17324d"/>
+  <path d="M17 10h22l10 10v34H17z" fill="#f4f7fb"/>
+  <path d="M39 10v12h12" fill="#c7d8e8"/>
+  <path d="M39 10v12h12" fill="none" stroke="#17324d" stroke-linejoin="round" stroke-width="2"/>
+  <text x="21" y="39" fill="#17324d" font-family="Arial, sans-serif" font-size="15" font-weight="700">CV</text>
+  <path d="m22 48 4 4 8-9" fill="none" stroke="#2f9e8f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
