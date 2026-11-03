@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Dirbtinio intelekto sistemų studento iliustracija</title>
+  <desc id="desc">Moderni technologijų iliustracija su dirbtinio intelekto tinklu, kodu ir žmogaus siluetu.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#dfeeff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0563bb"/>
+      <stop offset="1" stop-color="#47b5ff"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f4e79"/>
+      <stop offset="1" stop-color="#092b4c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#174b78" flood-opacity=".18"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#background)"/>
+  <circle cx="1560" cy="170" r="290" fill="#c8e6ff" opacity=".55"/>
+  <circle cx="290" cy="880" r="330" fill="#d2edff" opacity=".7"/>
+
+  <g fill="none" stroke="#75b9ed" stroke-width="4" opacity=".65">
+    <path d="M92 235h250l92 92h180"/>
+    <path d="M1470 390h178l93-93h185"/>
+    <path d="M1380 840h180l90-90h230"/>
+    <path d="M190 650h195l80-80h178"/>
+  </g>
+  <g fill="#0563bb">
+    <circle cx="92" cy="235" r="9"/>
+    <circle cx="614" cy="327" r="9"/>
+    <circle cx="1470" cy="390" r="9"/>
+    <circle cx="1926" cy="297" r="9"/>
+    <circle cx="1380" cy="840" r="9"/>
+    <circle cx="1880" cy="750" r="9"/>
+    <circle cx="190" cy="650" r="9"/>
+    <circle cx="643" cy="570" r="9"/>
+  </g>
+
+  <g transform="translate(1130 165)" filter="url(#shadow)">
+    <rect x="0" y="0" width="520" height="330" rx="28" fill="#ffffff" stroke="#b7dafa" stroke-width="5"/>
+    <circle cx="42" cy="42" r="9" fill="#ff7979"/>
+    <circle cx="72" cy="42" r="9" fill="#ffc857"/>
+    <circle cx="102" cy="42" r="9" fill="#56d364"/>
+    <g fill="none" stroke="#0563bb" stroke-width="7" stroke-linecap="round">
+      <path d="M52 112l30 28-30 28"/>
+      <path d="M112 180h58"/>
+      <path d="M230 102h180"/>
+      <path d="M230 144h130"/>
+      <path d="M230 186h205"/>
+      <path d="M230 228h105"/>
+    </g>
+    <g fill="#5b9bd5">
+      <circle cx="110" cy="254" r="16"/>
+      <circle cx="170" cy="254" r="16"/>
+      <circle cx="230" cy="254" r="16"/>
+      <circle cx="290" cy="254" r="16"/>
+      <circle cx="350" cy="254" r="16"/>
+    </g>
+    <g stroke="#5b9bd5" stroke-width="5">
+      <path d="M110 254l60-40 60 40 60-40 60 40"/>
+    </g>
+  </g>
+
+  <g transform="translate(555 245)" filter="url(#shadow)">
+    <path d="M420 350c0-155 126-280 280-280s280 125 280 280v160H420z" fill="url(#shirt)"/>
+    <path d="M558 260c0-115 75-210 168-210s168 95 168 210v102c0 104-75 188-168 188s-168-84-168-188z" fill="#f1b58f"/>
+    <path d="M548 270c-17-122 53-252 180-252 109 0 188 85 176 221-49-33-78-90-88-140-57 73-148 107-268 99z" fill="#253b53"/>
+    <path d="M590 355c42 30 88 43 136 43s94-13 136-43v54c-43 52-89 77-136 77s-93-25-136-77z" fill="#e99f78"/>
+    <circle cx="658" cy="315" r="10" fill="#253b53"/>
+    <circle cx="794" cy="315" r="10" fill="#253b53"/>
+    <path d="M698 379c25 15 50 15 76 0" fill="none" stroke="#b86458" stroke-width="8" stroke-linecap="round"/>
+    <path d="M490 505h420l90 290H400z" fill="url(#shirt)"/>
+    <path d="M670 535l-65 260h130z" fill="#d9e8f5"/>
+    <path d="M510 795h390" stroke="#0a2340" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(180 355)" filter="url(#shadow)">
+    <rect width="330" height="235" rx="24" fill="#ffffff" stroke="#b7dafa" stroke-width="5"/>
+    <text x="34" y="62" font-family="monospace" font-size="30" fill="#0563bb">&lt;AI /&gt;</text>
+    <text x="34" y="110" font-family="monospace" font-size="24" fill="#3f7ca8">model.train()</text>
+    <text x="34" y="152" font-family="monospace" font-size="24" fill="#3f7ca8">result = 98%</text>
+    <path d="M34 190h180" stroke="#73b9ed" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(1290 720)">
+    <circle cx="0" cy="0" r="82" fill="#ffffff" stroke="#0563bb" stroke-width="7"/>
+    <path d="M0-48v96M-48 0h96M-34-34l68 68M34-34l-68 68" stroke="#0563bb" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="22" fill="url(#accent)"/>
+  </g>
+</svg>
