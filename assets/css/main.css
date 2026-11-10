@@ -885,6 +885,15 @@ section,
   font-size: 36px;
   transition: 0.5s;
   position: relative;
+  display: none;
+}
+
+.services .service-item .icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
 }
 
 .services .service-item .icon svg {
