@@ -1,0 +1,111 @@
+PAKEITIMAI PER SESIJA
+======================
+
+INDEX.HTML
+----------
+
+- Po main.css nuorodos pridėta custom.css nuoroda:
+  <link href="assets/css/custom.css" rel="stylesheet">
+
+CUSTOM.CSS
+----------
+
+Tipografija
+-----------
+
+- Sukurta nauja CSS byla.
+- Pagrindiniam tekstui priskirtas Trebuchet MS.
+- Antraštėms h1-h6 priskirtas Georgia.
+- Pakeisti antraščių dydžiai, spalvos, šrifto storiai, eilučių aukščiai
+  ir raidžių tarpai.
+- Sekcijų antraštės tapo didesnės ir rašomos didžiosiomis raidėmis.
+- Pakeistas pastraipų dydis, eilučių aukštis ir spalva.
+
+Nuorodos ir mygtukai
+--------------------
+
+- Nuorodoms pakeistos spalvos, šrifto svoris ir pabraukimas.
+- Pridėti nuorodų :hover ir :active efektai.
+- Kontaktų mygtukui pakeistos kraštinės, šriftas ir tarpai.
+- Mygtukui pridėti :hover ir :active efektai.
+- :hover būsenoje mygtukas šiek tiek pakyla.
+
+Sekcijų išdėstymas
+------------------
+
+- Sekcijoms „Apie“, „Patirtis“ ir „Atlikti darbai“ pakeisti margin ir
+  padding dydžiai.
+- Sumažintas sekcijų antraščių apatinis tarpas.
+
+Turinio blokai
+--------------
+
+- Pridėti border-radius ir box-shadow:
+  - apie turinio blokui;
+  - gyvenimo aprašymo elementams;
+  - portfolio elementams;
+  - paslaugų kortelėms;
+  - kontaktų blokams;
+  - kontaktų formai.
+- Pridėtos subtilios kortelių kraštinės.
+- Profilio nuotraukai pridėti apvalinti kampai ir šešėlis.
+- Įgūdžių blokams pridėti tarpai, fonas, apvalinti kampai ir šešėlis.
+- Portfolio ir paslaugų kortelėms pridėtas pakilimo efektas užvedus pelę.
+
+Du pasirinkti komponentai
+-------------------------
+
+1. Navigacijos juosta:
+   - pakeistos kraštinės;
+   - pakeistas kampų apvalinimas;
+   - pakeistas fonas;
+   - pridėtas šešėlis;
+   - pakeista teksto spalva;
+   - pakeistas šrifto svoris;
+   - pakeistos aktyvi, :hover ir :focus būsenos.
+
+2. Progreso juostos:
+   - pakeistas aukštis;
+   - pakeistas fonas;
+   - pakeista kraštinė;
+   - pakeistas kampų apvalinimas;
+   - pakeista užpildo spalva;
+   - pridėtas spalvų gradientas;
+   - pridėtas šešėlis.
+
+Sąrašų stiliai
+--------------
+
+- „Paslaugos“ sekcijos nenumeruotam technologijų sąrašui pritaikytas
+  kvadratinis žymeklis, fonas, tarpai ir kairinė kraštinė.
+- Numeruotam paslaugos etapų sąrašui pritaikytas CSS skaitiklis.
+- Numeriai pateikiami apskrituose spalvotuose elementuose.
+- Įdėtam sąrašui pritaikytas kitoks apskritas žymeklis ir atskiri tarpai.
+
+Lentelės stiliai
+----------------
+
+- Lentelės antraštės eilutei pritaikytas išskirtinis mėlynas fonas, baltas
+  tekstas ir paryškintas šriftas.
+- Lentelės eilutėms pritaikytas „zebra“ stilius su besikaitaliojančiomis
+  spalvomis.
+- Eilutėms pridėtas :hover efektas.
+- Nustatyti vienodi langelių vidiniai tarpai ir turinio lygiavimas centre.
+- Visai lentelei pridėta kraštinė, apvalinti kampai ir šešėlis.
+
+Pašalinti papildomi pakeitimai
+------------------------------
+
+Vėliau pašalinti, nes nebuvo tiesiogiai prašyti:
+
+- skirtingi sekcijų fonai;
+- spalvotos sekcijų kraštinės;
+- hero sekcijos gradientas;
+- papildomas bendras puslapio fonas.
+
+HTML struktūra nebuvo keičiama, išskyrus custom.css nuorodos pridėjimą.
+
+Patikra
+-------
+
+- Visos CSS patikros su git diff --check klaidų nerado.
